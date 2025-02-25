@@ -1,0 +1,29 @@
+{
+  "name": "zabidok/php-onerecord-entities",
+  "description": "PHP ONE Record entities",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Khrystenko",
+      "email": "zabidok@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "doctrine/orm": "^3.3",
+    "symfony/uid": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zabidok\\OneRecordEntities\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
