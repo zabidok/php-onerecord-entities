@@ -15,7 +15,11 @@ This project provides an **open-source implementation** of **Cargo (123 entities
 
 ## 🔧 Installation
 
-### 1️⃣ Clone Repository
+### 1️⃣ Install via composer
+```sh
+composer require zabidok/php-onerecord-entities
+```
+### 1️⃣ OR Clone Repository
 ```sh
 git clone https://github.com/zabidok/php-onerecord-entities.git
 cd https://github.com/zabidok/php-onerecord-entities
